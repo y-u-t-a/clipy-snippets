@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<folders>
+	<folder>
+		<title>Docker</title>
+		<snippets>
+			<snippet>
+				<title>コンテナを起動しっぱなし</title>
+				<content>docker run -it --rm image bash</content>
+			</snippet>
+			<snippet>
+				<title>コンテナにログイン</title>
+				<content>docker exec -it コンテナ名 bash</content>
+			</snippet>
+			<snippet>
+				<title>全削除</title>
+				<content>docker system prune -a -f</content>
+			</snippet>
+			<snippet>
+				<title>localstack:latest を起動バックグラウンドで起動</title>
+				<content>docker run -itd --rm -p 4567-4597:4567-4597 -p 8080:8080 localstack/localstack:latest</content>
+			</snippet>
+			<snippet>
+				<title>alpine:latest を起動してログイン</title>
+				<content>docker run -it --rm alpine:latest sh</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
+		<title>Python</title>
+		<snippets>
+			<snippet>
+				<title>requirements.txt</title>
+				<content>requirements.txt</content>
+			</snippet>
+			<snippet>
+				<title>pip install -r requirements.txt</title>
+				<content>pip install -r requirements.txt</content>
+			</snippet>
+		</snippets>
+	</folder>
+</folders>
