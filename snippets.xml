@@ -16,12 +16,20 @@
 				<content>docker system prune -a -f</content>
 			</snippet>
 			<snippet>
+				<title>apt-get で vim をインストール</title>
+				<content>apt-get update &amp;&amp; apt-get install -y vim</content>
+			</snippet>
+			<snippet>
 				<title>localstack:latest を起動バックグラウンドで起動</title>
 				<content>docker run -itd --rm -p 4567-4597:4567-4597 -p 8080:8080 localstack/localstack:latest</content>
 			</snippet>
 			<snippet>
 				<title>alpine:latest を起動してログイン</title>
 				<content>docker run -it --rm alpine:latest sh</content>
+			</snippet>
+			<snippet>
+				<title>ubuntu:latest を起動してログイン</title>
+				<content>docker run -it --rm ubuntu:latest bash</content>
 			</snippet>
 		</snippets>
 	</folder>
