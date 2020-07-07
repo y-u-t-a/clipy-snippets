@@ -13,7 +13,7 @@
 			</snippet>
 			<snippet>
 				<title>全削除</title>
-				<content>docker system prune -a -f</content>
+				<content>docker system prune -a -f --volumes</content>
 			</snippet>
 			<snippet>
 				<title>&lt;none&gt; なイメージを削除</title>
