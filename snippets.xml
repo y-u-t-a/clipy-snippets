@@ -4,12 +4,8 @@
 		<title>Docker</title>
 		<snippets>
 			<snippet>
-				<title>コンテナを起動しっぱなし</title>
-				<content>docker run -it --rm image bash</content>
-			</snippet>
-			<snippet>
-				<title>コンテナにログイン</title>
-				<content>docker exec -it コンテナ名 bash</content>
+				<title>host.docker.internal </title>
+				<content>host.docker.internal</content>
 			</snippet>
 			<snippet>
 				<title>全削除</title>
@@ -38,6 +34,14 @@
 			<snippet>
 				<title>centos:latest を起動してログイン</title>
 				<content>docker run -it --rm centos:latest bash</content>
+			</snippet>
+			<snippet>
+				<title>コンテナを起動しっぱなし</title>
+				<content>docker run -it --rm image bash</content>
+			</snippet>
+			<snippet>
+				<title>コンテナにログイン</title>
+				<content>docker exec -it コンテナ名 bash</content>
 			</snippet>
 		</snippets>
 	</folder>
