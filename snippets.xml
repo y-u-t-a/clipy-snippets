@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <folders>
 	<folder>
+		<title>LinuxCommand</title>
+		<snippets>
+			<snippet>
+				<title>ログインしなおす</title>
+				<content>exec $SHELL -l</content>
+			</snippet>
+		</snippets>
+	</folder>
+	<folder>
 		<title>Docker</title>
 		<snippets>
 			<snippet>
-				<title>host.docker.internal </title>
+				<title>host.docker.internal</title>
 				<content>host.docker.internal</content>
 			</snippet>
 			<snippet>
