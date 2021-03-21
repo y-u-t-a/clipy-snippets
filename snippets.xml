@@ -45,6 +45,10 @@
 				<content>docker run -it --rm centos:latest bash</content>
 			</snippet>
 			<snippet>
+				<title>golang:latest を起動してログイン</title>
+				<content>docker run --rm -it golang:latest bash</content>
+			</snippet>
+			<snippet>
 				<title>コンテナを起動しっぱなし</title>
 				<content>docker run -it --rm image bash</content>
 			</snippet>
@@ -63,7 +67,7 @@
 			</snippet>
 			<snippet>
 				<title>pip install -r requirements.txt</title>
-				<content>pip install -r requirements.txt</content>
+				<content>pip3 install -r requirements.txt</content>
 			</snippet>
 		</snippets>
 	</folder>
